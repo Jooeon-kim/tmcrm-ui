@@ -1,0 +1,8 @@
+.page{display:flex;flex-direction:column;gap:12px;}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;padding:12px;border:1px solid var(--border);border-radius:16px;background:var(--panel);box-shadow:var(--shadow);}
+.h1{font-weight:900;font-size:16px;}
+.sub{color:var(--muted);font-size:12px;margin-top:4px;}
+.refresh{border:1px solid var(--border);background:#fff;color:var(--text);padding:10px 12px;border-radius:14px;cursor:pointer;transition:transform .15s ease, box-shadow .15s ease;}
+.refresh:hover{box-shadow:0 6px 16px rgba(0,0,0,0.08);transform:translateY(-1px);}
+.error{border:1px solid rgba(239,68,68,0.30);background:rgba(239,68,68,0.10);padding:10px 12px;border-radius:14px;}
+.loading{color:var(--muted);padding-left:6px;}

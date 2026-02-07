@@ -1,0 +1,23 @@
+:root{
+  --bg:#f5f8fc;
+  --panel:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --border:#e5e7eb;
+  --shadow:0 10px 30px rgba(0,0,0,0.08);
+  --red:#ffe4e6;
+  --yellow:#fff7cc;
+  --green:#e6fffa;
+  --gray:#f3f4f6;
+  --blue:#2563eb;
+}
+*{box-sizing:border-box;}
+html,body{height:100%;}
+body{
+  margin:0;
+  font-family:Pretendard, system-ui, -apple-system, BlinkMacSystemFont;
+  background: linear-gradient(180deg, #f0f7ff, #ffffff 60%);
+  color:var(--text);
+}
+a{text-decoration:none;color:inherit;}
+button,input,select,textarea{font:inherit;}

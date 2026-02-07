@@ -1,0 +1,10 @@
+.header{height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;border-bottom:1px solid var(--border);background:rgba(255,255,255,0.75);backdrop-filter:blur(10px);position:relative;}
+.logoBox{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;border:1px solid var(--border);background:rgba(255,255,255,0.9);}
+.logoMark{width:26px;height:26px;border-radius:10px;background:linear-gradient(135deg, rgba(37,99,235,0.35), rgba(16,185,129,0.25));}
+.logoText{font-weight:900;}
+.right{display:flex;align-items:center;gap:10px;}
+.tm{padding:8px 10px;border-radius:12px;border:1px solid var(--border);background:#fff;font-weight:800;}
+.btn{border:1px solid var(--border);background:#fff;color:var(--text);padding:8px 12px;border-radius:12px;cursor:pointer;}
+.btn:hover{box-shadow:0 6px 16px rgba(0,0,0,0.08);} 
+
+.centerTitle{position:absolute;left:50%;transform:translateX(-50%);font-weight:800;pointer-events:none;font-size:18px;line-height:1;color:var(--text);font-family:'Noto Sans KR', Pretendard, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;letter-spacing:0.2px;}

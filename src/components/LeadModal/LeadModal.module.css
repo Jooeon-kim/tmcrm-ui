@@ -1,0 +1,28 @@
+.backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.25);display:grid;place-items:center;padding:16px;z-index:50;}
+.modal{width:min(760px,96vw);border-radius:18px;border:1px solid var(--border);background:var(--panel);box-shadow:var(--shadow);padding:14px;}
+.top{display:flex;align-items:flex-start;justify-content:space-between;}
+.name{font-weight:900;font-size:18px;}
+.phone{color:var(--muted);font-weight:800;margin-top:4px;}
+.x{border:1px solid var(--border);background:#fff;color:var(--text);width:34px;height:34px;border-radius:12px;cursor:pointer;font-size:18px;}
+.x:hover{box-shadow:0 6px 16px rgba(0,0,0,0.08);}
+.meta{margin-top:10px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+.metaItem{border:1px solid var(--border);border-radius:14px;padding:10px;background:var(--gray);display:flex;flex-direction:column;gap:6px;}
+.metaItem span{color:var(--muted);font-size:12px;font-weight:900;}
+.metaItem b{font-size:14px;}
+.form{margin-top:12px;border:1px solid var(--border);border-radius:16px;padding:12px;background:var(--gray);display:flex;flex-direction:column;gap:10px;}
+.field{display:flex;flex-direction:column;gap:6px;}
+.field label{color:var(--muted);font-weight:900;font-size:12px;}
+.field select,.field input,.field textarea{border-radius:14px;border:1px solid var(--border);background:#fff;color:var(--text);padding:10px 12px;outline:none;}
+.field textarea{resize:vertical;min-height:120px;}
+.inline{display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+.pickBtn,.clearBtn{border-radius:14px;border:1px solid var(--border);padding:10px 12px;cursor:pointer;background:#fff;}
+.pickBtn{border-color:rgba(37,99,235,0.25);background:rgba(37,99,235,0.10);font-weight:900;}
+.pickBtn:hover{background:rgba(37,99,235,0.14);}
+.clearBtn:hover{box-shadow:0 6px 16px rgba(0,0,0,0.08);}
+.actions{margin-top:12px;display:flex;justify-content:flex-end;gap:10px;}
+.cancel,.save{border-radius:14px;border:1px solid var(--border);padding:10px 12px;cursor:pointer;background:#fff;}
+.cancel:hover{box-shadow:0 6px 16px rgba(0,0,0,0.08);}
+.save{border-color:rgba(16,185,129,0.25);background:rgba(16,185,129,0.12);font-weight:900;}
+.save:hover{background:rgba(16,185,129,0.16);}
+.note{margin-top:10px;color:var(--muted);font-size:12px;}
+@media (max-width:780px){.meta{grid-template-columns:1fr;}}

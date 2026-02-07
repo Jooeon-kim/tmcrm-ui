@@ -1,0 +1,13 @@
+.card{width:100%;text-align:left;border:1px solid var(--border);border-radius:16px;padding:12px;color:var(--text);cursor:pointer;transition:transform .15s ease, box-shadow .15s ease;}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,0.12);} /* 상태색 유지: background X */
+.row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.leftFlag{min-width:68px;display:flex;align-items:center;}
+.available{color:var(--blue);font-weight:900;font-size:12px;}
+.badge{font-weight:900;font-size:12px;padding:6px 10px;border-radius:999px;border:1px solid var(--border);background:#fff;}
+.name{font-size:16px;font-weight:900;}
+.phone{color:var(--muted);font-weight:800;}
+.state{color:var(--muted);font-size:13px;}
+.state b{color:var(--text);}
+.memo{color:var(--text);font-size:14px;flex-basis:100%;word-break:break-word;padding:10px;margin-top:6px;background:rgba(0,0,0,0.03);border-radius:8px;border-left:3px solid var(--blue);}
+.updated{color:var(--muted);font-size:12px;}
+.red{background:var(--red);} .yellow{background:var(--yellow);} .green{background:var(--green);} .gray{background:var(--gray);} .neutral{background:var(--panel);}
